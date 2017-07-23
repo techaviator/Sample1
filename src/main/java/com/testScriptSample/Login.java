@@ -11,6 +11,7 @@ import com.pageObjectGenericMethods.LoginGeneric;
 
 public class Login extends BaseClass{
 	Logger log = Logger.getLogger(Login.class);
+	String info = "Changes are added here";
 	@Test(dataProvider = "DP_excel", dataProviderClass = com.dataprovider.DataProviderFromExcel.class)
 	public void validLoginScenario(Map<String, String> map) throws Exception{
 			
