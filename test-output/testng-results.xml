@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7646" started-at="2017-07-22T12:49:25Z" finished-at="2017-07-22T12:49:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7646" started-at="2017-07-22T12:49:25Z" finished-at="2017-07-22T12:49:33Z">
+      <class name="com.testScriptSample.Login">
+        <test-method status="PASS" signature="intializeSuite()[pri:0, instance:com.testScriptSample.Login@67784306]" name="intializeSuite" is-config="true" duration-ms="140" started-at="2017-07-22T18:19:25Z" finished-at="2017-07-22T18:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeSuite -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:com.testScriptSample.Login@67784306]" name="launchBrowser" is-config="true" duration-ms="4509" started-at="2017-07-22T18:19:25Z" finished-at="2017-07-22T18:19:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6a1d204a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="validLoginScenario(java.util.Map)[pri:0, instance:com.testScriptSample.Login@67784306]" name="validLoginScenario" duration-ms="2574" started-at="2017-07-22T18:19:30Z" data-provider="DP_excel" finished-at="2017-07-22T18:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestDescription=This test is to validate valid login, UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TC_ID=TC_01, Functionality=validLoginScenario, TestScenario=Login_Scenario_Check_Valid_and_Invalid, RunStatus=Y, Run=1.0, InvalidMsg=, Password=learn123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginScenario -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScriptSample.Login@67784306]" name="tearDown" is-config="true" duration-ms="143" started-at="2017-07-22T18:19:33Z" finished-at="2017-07-22T18:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginScenario status=SUCCESS method=Login.validLoginScenario(java.util.Map)[pri:0, instance:com.testScriptSample.Login@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:com.testScriptSample.Login@67784306]" name="endSuite" is-config="true" duration-ms="157" started-at="2017-07-22T18:19:33Z" finished-at="2017-07-22T18:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- com.testScriptSample.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

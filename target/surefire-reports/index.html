@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Jim\Personal\RK\Feb_Batch\rediff\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testScriptSample.Login" hash-for-method="invalidLoginScenario({TestDescription=This test is to validate invalid login, UserName=sfsds, AccountID=, TC_ID=TC_01, Fu...)">invalidLoginScenario({TestDescription=This test is to validate invalid login, UserName=sfsds, AccountID=, TC_ID=TC_01, Fu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testScriptSample.SearchScenario" hash-for-method="invalidSearchScenario({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functiona...)">invalidSearchScenario({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functiona...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testScriptSample.Login" hash-for-method="validLoginScenario({TestDescription=This test is to validate valid login, UserName=qtpworld2008@gmail.com, AccountID=qt...)">validLoginScenario({TestDescription=This test is to validate valid login, UserName=qtpworld2008@gmail.com, AccountID=qt...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testScriptSample.SearchScenario" hash-for-method="validSearchScenario({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functiona...)">validSearchScenario({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functiona...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testScriptSample.SearchScenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidSearchScenario({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functiona...)">
+                  </a> <!-- invalidSearchScenario({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functiona...) -->
+                  <span class="method-name">invalidSearchScenario</span>
+                  <span class="parameters">({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functionality, RunStatus=Y, Run=2.0, SearchKeyword=sdfsdfs, TestDescription=This test is to validate the invalid book search, TC_ID=TC_02, Functionality=invalidSearchScenario, BookNo.=, invalidmsg=Sorry.., Password=learn123})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validSearchScenario({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functiona...)">
+                  </a> <!-- validSearchScenario({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functiona...) -->
+                  <span class="method-name">validSearchScenario</span>
+                  <span class="parameters">({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functionality, RunStatus=Y, Run=1.0, SearchKeyword=ways, TestDescription=This test is to validate the valid book search, TC_ID=TC_02, Functionality=validSearchScenario, BookNo.=497.0, invalidmsg=, Password=learn123})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testScriptSample.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginScenario({TestDescription=This test is to validate invalid login, UserName=sfsds, AccountID=, TC_ID=TC_01, Fu...)">
+                  </a> <!-- invalidLoginScenario({TestDescription=This test is to validate invalid login, UserName=sfsds, AccountID=, TC_ID=TC_01, Fu...) -->
+                  <span class="method-name">invalidLoginScenario</span>
+                  <span class="parameters">({TestDescription=This test is to validate invalid login, UserName=sfsds, AccountID=, TC_ID=TC_01, Functionality=invalidLoginScenario, TestScenario=Login_Scenario_Check_Valid_and_Invalid, RunStatus=Y, Run=2.0, InvalidMsg=Sorry we were unable to complete this step because :, Password=sdfsd})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginScenario({TestDescription=This test is to validate valid login, UserName=qtpworld2008@gmail.com, AccountID=qt...)">
+                  </a> <!-- validLoginScenario({TestDescription=This test is to validate valid login, UserName=qtpworld2008@gmail.com, AccountID=qt...) -->
+                  <span class="method-name">validLoginScenario</span>
+                  <span class="parameters">({TestDescription=This test is to validate valid login, UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TC_ID=TC_01, Functionality=validLoginScenario, TestScenario=Login_Scenario_Check_Valid_and_Invalid, RunStatus=Y, Run=1.0, InvalidMsg=, Password=learn123})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Jim\Personal\RK\Feb_Batch\rediff\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browsertype&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testScriptSample.Login&quot;/&gt;
+      &lt;class name=&quot;com.testScriptSample.SearchScenario&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'invalidSearchScenario')
+data.setCell(0, 2, 'com.testScriptSample.SearchScenario')
+data.setCell(0, 3, 17076);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'invalidLoginScenario')
+data.setCell(1, 2, 'com.testScriptSample.Login')
+data.setCell(1, 3, 8306);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validSearchScenario')
+data.setCell(2, 2, 'com.testScriptSample.SearchScenario')
+data.setCell(2, 3, 7009);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validLoginScenario')
+data.setCell(3, 2, 'com.testScriptSample.Login')
+data.setCell(3, 3, 3963);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testScriptSample.SearchScenario</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">intializeSuite</span>
+                <br/>
+                <span class="ignored-method-name">endSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testScriptSample.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">intializeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(firefox, [{TestDescription=This test is to validate invalid login, UserName=sfsds, AccountID=, TC_ID...)</span>
+                <span class="method-start">571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginScenario({TestDescription=This test is to validate invalid login, UserName=sfsds, AccountID=, TC_ID=TC_01, Fu...)</span>
+                <span class="method-start">7579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=invalidLoginScenario status=SUCCESS method=Login.invalidLoginScenario(java.util.Map...)</span>
+                <span class="method-start">15886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(firefox, [{TestDescription=This test is to validate valid login, UserName=qtpworld2008@gmail.com, Ac...)</span>
+                <span class="method-start">15954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginScenario({TestDescription=This test is to validate valid login, UserName=qtpworld2008@gmail.com, AccountID=qt...)</span>
+                <span class="method-start">26540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validLoginScenario status=SUCCESS method=Login.validLoginScenario(java.util.Map)[pr...)</span>
+                <span class="method-start">30504 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testScriptSample.SearchScenario</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(firefox, [{TestDescription=This test is to validate the invalid book search, UserName=qtpworld2008@g...)</span>
+                <span class="method-start">30570 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidSearchScenario({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functiona...)</span>
+                <span class="method-start">34191 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=invalidSearchScenario status=SUCCESS method=SearchScenario.invalidSearchScenario(ja...)</span>
+                <span class="method-start">51268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(firefox, [{TestDescription=This test is to validate the valid book search, UserName=qtpworld2008@gma...)</span>
+                <span class="method-start">51341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validSearchScenario({UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functiona...)</span>
+                <span class="method-start">56076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validSearchScenario status=SUCCESS method=SearchScenario.validSearchScenario(java.u...)</span>
+                <span class="method-start">63085 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testScriptSample.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endSuite</span>
+                <span class="method-start">63150 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

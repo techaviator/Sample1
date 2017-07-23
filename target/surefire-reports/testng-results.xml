@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62965" started-at="2017-07-23T06:43:48Z" finished-at="2017-07-23T06:44:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="62965" started-at="2017-07-23T06:43:48Z" finished-at="2017-07-23T06:44:51Z">
+      <class name="com.testScriptSample.Login">
+        <test-method status="PASS" signature="intializeSuite()[pri:0, instance:com.testScriptSample.Login@457e2f02]" name="intializeSuite" is-config="true" duration-ms="148" started-at="2017-07-23T12:13:48Z" finished-at="2017-07-23T12:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeSuite -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:com.testScriptSample.Login@457e2f02]" name="launchBrowser" is-config="true" duration-ms="7008" started-at="2017-07-23T12:13:48Z" finished-at="2017-07-23T12:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@22680f52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="invalidLoginScenario(java.util.Map)[pri:0, instance:com.testScriptSample.Login@457e2f02]" name="invalidLoginScenario" duration-ms="8306" started-at="2017-07-23T12:13:55Z" data-provider="DP_excel" finished-at="2017-07-23T12:14:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestDescription=This test is to validate invalid login, UserName=sfsds, AccountID=, TC_ID=TC_01, Functionality=invalidLoginScenario, TestScenario=Login_Scenario_Check_Valid_and_Invalid, RunStatus=Y, Run=2.0, InvalidMsg=Sorry we were unable to complete this step because :, Password=sdfsd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginScenario -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScriptSample.Login@457e2f02]" name="tearDown" is-config="true" duration-ms="18" started-at="2017-07-23T12:14:03Z" finished-at="2017-07-23T12:14:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginScenario status=SUCCESS method=Login.invalidLoginScenario(java.util.Map)[pri:0, instance:com.testScriptSample.Login@457e2f02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:com.testScriptSample.Login@457e2f02]" name="launchBrowser" is-config="true" duration-ms="10586" started-at="2017-07-23T12:14:04Z" finished-at="2017-07-23T12:14:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@60d84f61]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="validLoginScenario(java.util.Map)[pri:0, instance:com.testScriptSample.Login@457e2f02]" name="validLoginScenario" duration-ms="3963" started-at="2017-07-23T12:14:14Z" data-provider="DP_excel" finished-at="2017-07-23T12:14:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestDescription=This test is to validate valid login, UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TC_ID=TC_01, Functionality=validLoginScenario, TestScenario=Login_Scenario_Check_Valid_and_Invalid, RunStatus=Y, Run=1.0, InvalidMsg=, Password=learn123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginScenario -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScriptSample.Login@457e2f02]" name="tearDown" is-config="true" duration-ms="17" started-at="2017-07-23T12:14:18Z" finished-at="2017-07-23T12:14:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginScenario status=SUCCESS method=Login.validLoginScenario(java.util.Map)[pri:0, instance:com.testScriptSample.Login@457e2f02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:com.testScriptSample.Login@457e2f02]" name="endSuite" is-config="true" duration-ms="420" started-at="2017-07-23T12:14:51Z" finished-at="2017-07-23T12:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- com.testScriptSample.Login -->
+      <class name="com.testScriptSample.SearchScenario">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:com.testScriptSample.SearchScenario@5c7fa833]" name="launchBrowser" is-config="true" duration-ms="3619" started-at="2017-07-23T12:14:18Z" finished-at="2017-07-23T12:14:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@39c11e6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="invalidSearchScenario(java.util.Map)[pri:0, instance:com.testScriptSample.SearchScenario@5c7fa833]" name="invalidSearchScenario" duration-ms="17076" started-at="2017-07-23T12:14:22Z" data-provider="DP_excel" finished-at="2017-07-23T12:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functionality, RunStatus=Y, Run=2.0, SearchKeyword=sdfsdfs, TestDescription=This test is to validate the invalid book search, TC_ID=TC_02, Functionality=invalidSearchScenario, BookNo.=, invalidmsg=Sorry.., Password=learn123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSearchScenario -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScriptSample.SearchScenario@5c7fa833]" name="tearDown" is-config="true" duration-ms="15" started-at="2017-07-23T12:14:39Z" finished-at="2017-07-23T12:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidSearchScenario status=SUCCESS method=SearchScenario.invalidSearchScenario(java.util.Map)[pri:0, instance:com.testScriptSample.SearchScenario@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:com.testScriptSample.SearchScenario@5c7fa833]" name="launchBrowser" is-config="true" duration-ms="4735" started-at="2017-07-23T12:14:39Z" finished-at="2017-07-23T12:14:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@324dcd31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="validSearchScenario(java.util.Map)[pri:0, instance:com.testScriptSample.SearchScenario@5c7fa833]" name="validSearchScenario" duration-ms="7009" started-at="2017-07-23T12:14:44Z" data-provider="DP_excel" finished-at="2017-07-23T12:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=qtpworld2008@gmail.com, AccountID=qtpworld2008 g, TestScenario=Validating_search_functionality, RunStatus=Y, Run=1.0, SearchKeyword=ways, TestDescription=This test is to validate the valid book search, TC_ID=TC_02, Functionality=validSearchScenario, BookNo.=497.0, invalidmsg=, Password=learn123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearchScenario -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScriptSample.SearchScenario@5c7fa833]" name="tearDown" is-config="true" duration-ms="28" started-at="2017-07-23T12:14:51Z" finished-at="2017-07-23T12:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validSearchScenario status=SUCCESS method=SearchScenario.validSearchScenario(java.util.Map)[pri:0, instance:com.testScriptSample.SearchScenario@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testScriptSample.SearchScenario -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

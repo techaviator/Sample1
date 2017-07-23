@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="browsertype" value="firefox"/>
+    <classes>
+      <class name="com.testScriptSample.SearchScenario">
+        <methods>
+          <include name="validSearchScenario" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.testScriptSample.SearchScenario -->
+      <class name="com.testScriptSample.Login">
+        <methods>
+          <include name="intializeSuite"/>
+          <include name="endSuite"/>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.testScriptSample.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
